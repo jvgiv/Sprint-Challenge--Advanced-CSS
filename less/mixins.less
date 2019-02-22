@@ -1,1 +1,18 @@
 // Mixins Here
+
+.button {
+  font-weight: bold;
+  color: white;
+  background: @btn-bg-color;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    color: @btn-bg-color;
+    background: white;
+    border: 1px solid @btn-bg-color;
+    cursor: pointer;
+  }
+}
