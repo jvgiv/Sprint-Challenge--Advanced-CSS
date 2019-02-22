@@ -1,1 +1,41 @@
 // Navigation code here
+.nav-bar {
+  .intro h1 nav {
+    display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    vertical-align: center;
+
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    Padding: 20px 0;
+    background-color: @wild-sand;
+
+  }
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      padding: 20px 0;
+      background-color: @wild-sand;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+
+  a {
+    width: 10%;
+    text-decoration: none;
+    color: @river-bend;
+    font-size: 1.6rem;
+    text-align: center;
+    // background-color: @wild-sand;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
