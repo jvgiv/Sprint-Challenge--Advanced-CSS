@@ -1,17 +1,18 @@
-.button {
-  font-weight: bold;
-  color: white;
-  background: #22283A;
-  width: 100px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
+.nav-settings {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #F6F6F6;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.button:hover {
-  color: #22283A;
-  background: white;
-  border: 1px solid #22283A;
-  cursor: pointer;
+.h1-settings {
+  display: flex;
+  justify-content: center;
+  Padding: 20px 0;
+  background-color: #F6F6F6;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
