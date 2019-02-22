@@ -26,6 +26,11 @@
   background-color: @wild-sand;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+
+    @media @mobile {
+      justify-content: space-around;
+      flex-wrap: nowrap;
+    }
 }
 
 .h1-settings {
@@ -36,11 +41,13 @@
 }
 
 .a-settings {
-  width: 10%;
+  width: 20%;
   text-decoration: none;
   color: @river-bend;
   font-size: 1.6rem;
   text-align: center;
+
   &:hover {
     text-decoration: underline;
+  }
 }
